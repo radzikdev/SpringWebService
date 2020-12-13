@@ -16,7 +16,7 @@ public class SpringWebServiceApplication {
 
 	@GetMapping("/hello")
 	public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
-		return String.format("Hello %s!, test change v7", name);
+		return String.format("Hello %s!, test change v8", name);
 	}
 
 }
